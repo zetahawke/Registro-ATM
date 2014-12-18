@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FichasATMModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="FichasATMModelStoreContainer">
+          <EntitySet Name="FichaATM" EntityType="FichasATMModel.Store.FichaATM" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="FichaATM">
+          <Key>
+            <PropertyRef Name="NumeroAtm" />
+          </Key>
+          <Property Name="NumeroAtm" Type="int" Nullable="false" />
+          <Property Name="ETV" Type="varchar" Nullable="false" MaxLength="12" />
+          <Property Name="BancoAtm" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="MarcaAtm" Type="varchar" Nullable="false" MaxLength="25" />
+          <Property Name="DatosDeRed" Type="varchar" Nullable="false" MaxLength="160" />
+          <Property Name="DigitoVerificador" Type="varchar" Nullable="false" MaxLength="4" />
+          <Property Name="ModeloAtm" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="NumeroDeSerie" Type="varchar" Nullable="false" MaxLength="12" />
+          <Property Name="EMV" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="DepositarioEfectivo" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="DepositarioSobre" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="LectorLibreta" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="Jitter" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="TamañoHDD" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="TipoHDD" Type="varchar" Nullable="false" MaxLength="5" />
+          <Property Name="Ram" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="SO" Type="varchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FichasATMModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="FichasATMEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FichaATM" EntityType="FichasATMModel.FichaATM" />
+        </EntityContainer>
+        <EntityType Name="FichaATM">
+          <Key>
+            <PropertyRef Name="NumeroAtm" />
+          </Key>
+          <Property Name="NumeroAtm" Type="Int32" Nullable="false" />
+          <Property Name="ETV" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+          <Property Name="BancoAtm" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="MarcaAtm" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+          <Property Name="DatosDeRed" Type="String" Nullable="false" MaxLength="160" Unicode="false" FixedLength="false" />
+          <Property Name="DigitoVerificador" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+          <Property Name="ModeloAtm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="NumeroDeSerie" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+          <Property Name="EMV" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="DepositarioEfectivo" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="DepositarioSobre" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="LectorLibreta" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="Jitter" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="TamañoHDD" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="TipoHDD" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+          <Property Name="Ram" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="SO" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FichasATMModelStoreContainer" CdmEntityContainer="FichasATMEntities">
+          <EntitySetMapping Name="FichaATM">
+            <EntityTypeMapping TypeName="FichasATMModel.FichaATM">
+              <MappingFragment StoreEntitySet="FichaATM">
+                <ScalarProperty Name="NumeroAtm" ColumnName="NumeroAtm" />
+                <ScalarProperty Name="ETV" ColumnName="ETV" />
+                <ScalarProperty Name="BancoAtm" ColumnName="BancoAtm" />
+                <ScalarProperty Name="MarcaAtm" ColumnName="MarcaAtm" />
+                <ScalarProperty Name="DatosDeRed" ColumnName="DatosDeRed" />
+                <ScalarProperty Name="DigitoVerificador" ColumnName="DigitoVerificador" />
+                <ScalarProperty Name="ModeloAtm" ColumnName="ModeloAtm" />
+                <ScalarProperty Name="NumeroDeSerie" ColumnName="NumeroDeSerie" />
+                <ScalarProperty Name="EMV" ColumnName="EMV" />
+                <ScalarProperty Name="DepositarioEfectivo" ColumnName="DepositarioEfectivo" />
+                <ScalarProperty Name="DepositarioSobre" ColumnName="DepositarioSobre" />
+                <ScalarProperty Name="LectorLibreta" ColumnName="LectorLibreta" />
+                <ScalarProperty Name="Jitter" ColumnName="Jitter" />
+                <ScalarProperty Name="TamañoHDD" ColumnName="TamañoHDD" />
+                <ScalarProperty Name="TipoHDD" ColumnName="TipoHDD" />
+                <ScalarProperty Name="Ram" ColumnName="Ram" />
+                <ScalarProperty Name="SO" ColumnName="SO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="FichasATM">
+        <EntityTypeShape EntityType="FichasATMModel.FichaATM" Width="1.5" PointX="0.75" PointY="0.75" Height="4.2879036458333326" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

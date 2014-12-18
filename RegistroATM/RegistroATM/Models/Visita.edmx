@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VisitaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="VisitaModelStoreContainer">
+          <EntitySet Name="Visita" EntityType="VisitaModel.Store.Visita" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Visita">
+          <Key>
+            <PropertyRef Name="ID_Visita" />
+          </Key>
+          <Property Name="ID_Visita" Type="int" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" />
+          <Property Name="HoraInicio" Type="time" />
+          <Property Name="HoraFin" Type="time" />
+          <Property Name="ATM" Type="int" />
+          <Property Name="NombreTecnico" Type="varchar" MaxLength="30" />
+          <Property Name="EstatusInicial" Type="varchar" MaxLength="20" />
+          <Property Name="EstatusFinal" Type="varchar" MaxLength="20" />
+          <Property Name="Direccion" Type="varchar" MaxLength="50" />
+          <Property Name="Comentario" Type="varchar" MaxLength="160" />
+          <Property Name="FotoMenu" Type="varchar" MaxLength="300" />
+          <Property Name="FotoVoucher" Type="varchar" MaxLength="300" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VisitaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="VisitaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Visita" EntityType="VisitaModel.Visita" />
+        </EntityContainer>
+        <EntityType Name="Visita">
+          <Key>
+            <PropertyRef Name="ID_Visita" />
+          </Key>
+          <Property Name="ID_Visita" Type="Int32" Nullable="false" />
+          <Property Name="Fecha" Type="DateTime" />
+          <Property Name="HoraInicio" Type="Time" />
+          <Property Name="HoraFin" Type="Time" />
+          <Property Name="ATM" Type="Int32" />
+          <Property Name="NombreTecnico" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+          <Property Name="EstatusInicial" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="EstatusFinal" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Direccion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Comentario" Type="String" MaxLength="160" Unicode="false" FixedLength="false" />
+          <Property Name="FotoMenu" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="FotoVoucher" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VisitaModelStoreContainer" CdmEntityContainer="VisitaEntities">
+          <EntitySetMapping Name="Visita">
+            <EntityTypeMapping TypeName="VisitaModel.Visita">
+              <MappingFragment StoreEntitySet="Visita">
+                <ScalarProperty Name="ID_Visita" ColumnName="ID_Visita" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+                <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+                <ScalarProperty Name="ATM" ColumnName="ATM" />
+                <ScalarProperty Name="NombreTecnico" ColumnName="NombreTecnico" />
+                <ScalarProperty Name="EstatusInicial" ColumnName="EstatusInicial" />
+                <ScalarProperty Name="EstatusFinal" ColumnName="EstatusFinal" />
+                <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+                <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+                <ScalarProperty Name="FotoMenu" ColumnName="FotoMenu" />
+                <ScalarProperty Name="FotoVoucher" ColumnName="FotoVoucher" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Visita">
+        <EntityTypeShape EntityType="VisitaModel.Visita" Width="1.5" PointX="0.75" PointY="0.75" Height="3.3263964843749996" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

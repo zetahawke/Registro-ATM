@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VisitasModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="VisitasModelStoreContainer">
+    <EntitySet Name="Visita" EntityType="VisitasModel.Store.Visita" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Visita">
+    <Key>
+      <PropertyRef Name="ID_Visita" />
+    </Key>
+    <Property Name="ID_Visita" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+    <Property Name="HoraInicio" Type="time" Nullable="false" />
+    <Property Name="HoraFin" Type="time" Nullable="false" />
+    <Property Name="NumeroAtm" Type="int" Nullable="false" />
+    <Property Name="NombreTecnico" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="EstatusInicial" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="EstatusFinal" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Direccion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" Nullable="false" MaxLength="160" />
+    <Property Name="FotoMenu" Type="varchar" Nullable="false" MaxLength="300" />
+    <Property Name="FotoVoucher" Type="varchar" Nullable="false" MaxLength="300" />
+  </EntityType>
+</Schema>

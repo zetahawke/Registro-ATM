@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="192.168.1.136" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="RegistroATM" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="Mauricio" savePWD="False" userPWD="" SelectedForPublish="False" />
+  <publishProfile publishUrl="C:\blog\regi" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil2" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Views/FichaAtm/Index.aspx" publishTime="02/06/2014 17:34:52" />
+    <file relUrl="Views/Home/Index.aspx" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/Shared/LogOnUserControl.ascx" publishTime="02/04/2014 18:39:54" />
+    <file relUrl="Scripts/MicrosoftAjax.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Scripts/jquery-ui-1.10.3.custom.min.js" publishTime="01/12/2014 08:52:28" />
+    <file relUrl="Global.asax" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="10/17/2013 12:51:02" />
+    <file relUrl="Scripts/jquery.validate-vsdoc.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/FichaAtm/Details.aspx" publishTime="02/06/2014 17:17:37" />
+    <file relUrl="bin/RegistroATM.dll" publishTime="02/07/2014 16:48:59" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/Visita/Delete.aspx" publishTime="02/07/2014 16:20:30" />
+    <file relUrl="bin/Newtonsoft.Json.pdb" publishTime="10/17/2013 12:51:02" />
+    <file relUrl="Views/FichaAtm/Create.aspx" publishTime="02/07/2014 15:08:33" />
+    <file relUrl="bin/RegistroATM.pdb" publishTime="02/07/2014 16:48:59" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="App_Data/ATM.mdf" publishTime="02/07/2014 16:37:46" />
+    <file relUrl="Views/Visita/Index.aspx" publishTime="02/07/2014 13:48:06" />
+    <file relUrl="Scripts/jquery.validate.min.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/FichaAtm/Delete.aspx" publishTime="02/06/2014 17:19:25" />
+    <file relUrl="Views/Visita/Edit.aspx" publishTime="02/07/2014 16:26:48" />
+    <file relUrl="App_Data/ATM_log.ldf" publishTime="02/07/2014 16:37:46" />
+    <file relUrl="Views/Usuario/Create.aspx" publishTime="02/06/2014 16:42:50" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="IMG/LogoFiveSides.png" publishTime="01/10/2014 14:25:50" />
+    <file relUrl="Views/Account/LogOn.aspx" publishTime="02/06/2014 17:10:28" />
+    <file relUrl="Scripts/jquery-1.9.1.js" publishTime="01/12/2014 08:52:28" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="10/17/2013 12:51:02" />
+    <file relUrl="Views/Visita/Details.aspx" publishTime="02/07/2014 16:18:54" />
+    <file relUrl="Scripts/jquery.magnifier.js" publishTime="02/07/2014 14:32:45" />
+    <file relUrl="Views/Usuario/Index.aspx" publishTime="02/06/2014 17:04:52" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="02/06/2014 17:38:52" />
+    <file relUrl="Scripts/jquery.imageWarp.js" publishTime="02/07/2014 14:29:09" />
+    <file relUrl="Views/Usuario/Delete.aspx" publishTime="02/06/2014 17:03:50" />
+    <file relUrl="Views/Shared/Error.aspx" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/Home/About.aspx" publishTime="02/04/2014 22:36:58" />
+    <file relUrl="Views/Visita/Create.aspx" publishTime="02/07/2014 13:46:52" />
+    <file relUrl="Web.config" publishTime="02/07/2014 16:38:20" />
+    <file relUrl="Content/Site.css" publishTime="02/07/2014 14:55:46" />
+    <file relUrl="Views/Usuario/Details.aspx" publishTime="02/06/2014 16:51:26" />
+    <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Views/Usuario/Edit.aspx" publishTime="02/06/2014 17:02:26" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="01/30/2014 17:57:40" />
+    <file relUrl="WebService.asmx" publishTime="02/05/2014 19:31:23" />
+    <file relUrl="Views/Web.config" publishTime="02/05/2014 00:49:24" />
+    <file relUrl="Views/FichaAtm/Edit.aspx" publishTime="02/06/2014 17:16:31" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/30/2014 17:57:40" />
+  </publishProfile>
+</publishData>

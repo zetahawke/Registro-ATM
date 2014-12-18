@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FichaATMModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="FichaATMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FichaATM" EntityType="FichaATMModel.FichaATM" />
+  </EntityContainer>
+  <EntityType Name="FichaATM">
+    <Key>
+      <PropertyRef Name="NumeroAtm" />
+    </Key>
+    <Property Name="NumeroAtm" Type="Int32" Nullable="false" />
+    <Property Name="ETV" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="BancoAtm" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="MarcaAtm" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="DatosDeRed" Type="String" Nullable="false" MaxLength="160" Unicode="false" FixedLength="false" />
+    <Property Name="DigitoVerificador" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="EstatusInicialAtm" Type="String" Nullable="false" MaxLength="160" Unicode="false" FixedLength="false" />
+    <Property Name="EstatusFinalAtm" Type="String" Nullable="false" MaxLength="160" Unicode="false" FixedLength="false" />
+    <Property Name="ModeloAtm" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="NumeroDeSerie" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="EMV" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DepositarioEfectivo" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="DepositarioSobre" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="LectorLibreta" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="Jitter" Type="Boolean" Nullable="false" />
+    <Property Name="TamañoHDD" Type="Int32" Nullable="false" />
+    <Property Name="TipoHDD" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="Ram" Type="Int32" Nullable="false" />
+    <Property Name="SO" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="FotoMenu" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="FotoVoucher" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

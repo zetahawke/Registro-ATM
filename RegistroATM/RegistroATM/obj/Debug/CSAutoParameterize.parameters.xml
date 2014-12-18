@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="UsuarioEntities-Web.config Connection String" description="UsuarioEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.Usuario.csdl|res://*/Models.Usuario.ssdl|res://*/Models.Usuario.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsuarioEntities']/@connectionString" />
+  </parameter>
+  <parameter name="VisitasEntities-Web.config Connection String" description="VisitasEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.Visitas.csdl|res://*/Models.Visitas.ssdl|res://*/Models.Visitas.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='VisitasEntities']/@connectionString" />
+  </parameter>
+  <parameter name="FichaATMEntities-Web.config Connection String" description="FichaATMEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.FichaATM.csdl|res://*/Models.FichaATM.ssdl|res://*/Models.FichaATM.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FichaATMEntities']/@connectionString" />
+  </parameter>
+  <parameter name="UsuariosEntities-Web.config Connection String" description="UsuariosEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.Usuarios.csdl|res://*/Models.Usuarios.ssdl|res://*/Models.Usuarios.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsuariosEntities']/@connectionString" />
+  </parameter>
+  <parameter name="FichasATMEntities-Web.config Connection String" description="FichasATMEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultvalue="metadata=res://*/Models.FichasATM.csdl|res://*/Models.FichasATM.ssdl|res://*/Models.FichasATM.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ATM.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='FichasATMEntities']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FichaATMModelStoreContainer" CdmEntityContainer="FichaATMEntities">
+    <EntitySetMapping Name="FichaATM">
+      <EntityTypeMapping TypeName="FichaATMModel.FichaATM">
+        <MappingFragment StoreEntitySet="FichaATM">
+          <ScalarProperty Name="NumeroAtm" ColumnName="NumeroAtm" />
+          <ScalarProperty Name="ETV" ColumnName="ETV" />
+          <ScalarProperty Name="BancoAtm" ColumnName="BancoAtm" />
+          <ScalarProperty Name="MarcaAtm" ColumnName="MarcaAtm" />
+          <ScalarProperty Name="DatosDeRed" ColumnName="DatosDeRed" />
+          <ScalarProperty Name="DigitoVerificador" ColumnName="DigitoVerificador" />
+          <ScalarProperty Name="EstatusInicialAtm" ColumnName="EstatusInicialAtm" />
+          <ScalarProperty Name="EstatusFinalAtm" ColumnName="EstatusFinalAtm" />
+          <ScalarProperty Name="ModeloAtm" ColumnName="ModeloAtm" />
+          <ScalarProperty Name="NumeroDeSerie" ColumnName="NumeroDeSerie" />
+          <ScalarProperty Name="EMV" ColumnName="EMV" />
+          <ScalarProperty Name="DepositarioEfectivo" ColumnName="DepositarioEfectivo" />
+          <ScalarProperty Name="DepositarioSobre" ColumnName="DepositarioSobre" />
+          <ScalarProperty Name="LectorLibreta" ColumnName="LectorLibreta" />
+          <ScalarProperty Name="Jitter" ColumnName="Jitter" />
+          <ScalarProperty Name="TamañoHDD" ColumnName="TamañoHDD" />
+          <ScalarProperty Name="TipoHDD" ColumnName="TipoHDD" />
+          <ScalarProperty Name="Ram" ColumnName="Ram" />
+          <ScalarProperty Name="SO" ColumnName="SO" />
+          <ScalarProperty Name="FotoMenu" ColumnName="FotoMenu" />
+          <ScalarProperty Name="FotoVoucher" ColumnName="FotoVoucher" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VisitaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="VisitaModelStoreContainer">
+    <EntitySet Name="Visita" EntityType="VisitaModel.Store.Visita" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Visita">
+    <Key>
+      <PropertyRef Name="ID_Visita" />
+    </Key>
+    <Property Name="ID_Visita" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="HoraInicio" Type="time" />
+    <Property Name="HoraFin" Type="time" />
+    <Property Name="ATM" Type="int" />
+    <Property Name="NombreTecnico" Type="varchar" MaxLength="30" />
+    <Property Name="EstatusInicial" Type="varchar" MaxLength="20" />
+    <Property Name="EstatusFinal" Type="varchar" MaxLength="20" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" />
+    <Property Name="Comentario" Type="varchar" MaxLength="160" />
+    <Property Name="FotoMenu" Type="varchar" MaxLength="300" />
+    <Property Name="FotoVoucher" Type="varchar" MaxLength="300" />
+  </EntityType>
+</Schema>

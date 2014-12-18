@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VisitasModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="VisitasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Visita" EntityType="VisitasModel.Visita" />
+  </EntityContainer>
+  <EntityType Name="Visita">
+    <Key>
+      <PropertyRef Name="ID_Visita" />
+    </Key>
+    <Property Name="ID_Visita" Type="Int32" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" />
+    <Property Name="HoraInicio" Type="Time" Nullable="false" />
+    <Property Name="HoraFin" Type="Time" Nullable="false" />
+    <Property Name="NumeroAtm" Type="Int32" Nullable="false" />
+    <Property Name="NombreTecnico" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="EstatusInicial" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EstatusFinal" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Direccion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Comentario" Type="String" Nullable="false" MaxLength="160" Unicode="false" FixedLength="false" />
+    <Property Name="FotoMenu" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="FotoVoucher" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

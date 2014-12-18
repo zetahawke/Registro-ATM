@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VisitaModelStoreContainer" CdmEntityContainer="VisitaEntities">
+    <EntitySetMapping Name="Visita">
+      <EntityTypeMapping TypeName="VisitaModel.Visita">
+        <MappingFragment StoreEntitySet="Visita">
+          <ScalarProperty Name="ID_Visita" ColumnName="ID_Visita" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="HoraInicio" ColumnName="HoraInicio" />
+          <ScalarProperty Name="HoraFin" ColumnName="HoraFin" />
+          <ScalarProperty Name="ATM" ColumnName="ATM" />
+          <ScalarProperty Name="NombreTecnico" ColumnName="NombreTecnico" />
+          <ScalarProperty Name="EstatusInicial" ColumnName="EstatusInicial" />
+          <ScalarProperty Name="EstatusFinal" ColumnName="EstatusFinal" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="FotoMenu" ColumnName="FotoMenu" />
+          <ScalarProperty Name="FotoVoucher" ColumnName="FotoVoucher" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

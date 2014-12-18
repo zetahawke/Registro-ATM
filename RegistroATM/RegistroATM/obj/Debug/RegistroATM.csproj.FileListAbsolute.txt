@@ -1,0 +1,58 @@
+c:\users\mauricio\documents\visual studio 2010\Projects\RegistroATM\RegistroATM\bin\RegistroATM.dll
+c:\users\mauricio\documents\visual studio 2010\Projects\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+c:\users\mauricio\documents\visual studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+c:\users\mauricio\documents\visual studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Mauricio\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Mauricio\Desktop\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Mauricio\Desktop\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Mauricio\Desktop\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Mauricio\Desktop\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Zeine\Documents\Visual Studio 2010\Projects\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Mauricio\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Zeine\Desktop\Respaldo Michel\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Zeine\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Mauricio\Desktop\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.dll
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\RegistroATM.pdb
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.dll
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.pdb
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\bin\Newtonsoft.Json.xml
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.csprojResolveAssemblyReference.cache
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.dll
+C:\Users\Zeine\Documents\Pega\Respaldo Michelantiguoo\RegistroATM\RegistroATM\obj\Debug\RegistroATM.pdb

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FichasATMModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FichasATMModelStoreContainer">
+    <EntitySet Name="FichaATM" EntityType="FichasATMModel.Store.FichaATM" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="FichaATM">
+    <Key>
+      <PropertyRef Name="NumeroAtm" />
+    </Key>
+    <Property Name="NumeroAtm" Type="int" Nullable="false" />
+    <Property Name="ETV" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="BancoAtm" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="MarcaAtm" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="DatosDeRed" Type="varchar" Nullable="false" MaxLength="160" />
+    <Property Name="DigitoVerificador" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="ModeloAtm" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="NumeroDeSerie" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="EMV" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DepositarioEfectivo" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="DepositarioSobre" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="LectorLibreta" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Jitter" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="TamañoHDD" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="TipoHDD" Type="varchar" Nullable="false" MaxLength="5" />
+    <Property Name="Ram" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="SO" Type="varchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+</Schema>
